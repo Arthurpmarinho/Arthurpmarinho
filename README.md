@@ -19,11 +19,19 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 ## Projects
 
 <!-- PORTFOLIO:START -->
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) |  | C++ |
 <!-- PORTFOLIO:END -->
 
 ## Recently updated
 
 <!-- RECENT:START -->
+- [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA), updated 2026-10-31
+- [Trabalho final OO 2026 1](https://github.com/Arthurpmarinho/Trabalho_final_OO_2026-1), updated 2026-07-06
+- [Embarcado 2025 02](https://github.com/Arthurpmarinho/Embarcado_2025_02), updated 2026-02-19
+- [ted ped 2 2024 02](https://github.com/Arthurpmarinho/ted_ped_2_2024_02), updated 2026-02-17
+- [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada), updated 2025-12-12
 <!-- RECENT:END -->
 
 ## Tools
