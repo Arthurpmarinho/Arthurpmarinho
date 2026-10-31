@@ -23,3 +23,7 @@ A parte "What I have worked on" e "Tools" é escrita à mão. Só o que está en
 ## Esconder um repositório da lista "Recently updated"
 
 Coloque o nome dele em `exclude` no config.json.
+
+## Descrição e stack na tabela
+
+Por padrão vêm do About e dos tópicos do repositório. Para sobrescrever, use `descriptions` e `stacks` no config.json.

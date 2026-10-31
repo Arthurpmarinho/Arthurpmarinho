@@ -46,6 +46,8 @@ def name_of(repo):
 
 
 def stack_of(repo):
+    if repo["full_name"] in CONFIG.get("stacks", {}):
+        return CONFIG["stacks"][repo["full_name"]]
     topics = [t for t in repo.get("topics", []) if t != CONFIG["topic"]]
     if topics:
         return ", ".join(topics[:5])
@@ -55,7 +57,8 @@ def stack_of(repo):
 def portfolio_table(repos):
     rows = ["| Project | What it is | Stack |", "| --- | --- | --- |"]
     for r in repos:
-        desc = (r.get("description") or "").replace("|", "/")
+        desc = CONFIG.get("descriptions", {}).get(r["full_name"]) or r.get("description") or ""
+        desc = desc.replace("|", "/")
         rows.append(f"| [{name_of(r)}]({r['html_url']}) | {desc} | {stack_of(r)} |")
     return "\n".join(rows)
 

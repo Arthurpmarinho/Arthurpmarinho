@@ -17,6 +17,23 @@
   "exclude": [
     "OO_2026_01",
     "Biblioteca_VHDL",
-    "PI1_2026_01_Arthur"
-  ]
+    "PI1_2026_01_Arthur",
+    "Trabalho_final_OO_2026-1",
+    "Embarcado_2025_02",
+    "ted_ped_2_2024_02"
+  ],
+  "descriptions": {
+    "fcte-pi1/2026_1_PI1_Grupo02_Hilmer": "Maze-solving robot with ESP32 firmware, two KiCad PCBs and live web telemetry. 1st place, UnB internal competition",
+    "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry",
+    "Arthurpmarinho/FPGA_ENSEA": "VHDL modules with testbenches: ALU, HDMI timing controller, counter, shift register. GHDL CI",
+    "Arthurpmarinho/Interface_Industrial_Projeto_Rossi": "Real-time vibration monitoring for electric motors over Modbus RTU, with FFT and ISO 10816 diagnostics",
+    "Arthurpmarinho/f1-ers-battery-sim": "Electro-thermal model of an F1 ERS battery in Simulink and an energy deployment strategy from real telemetry"
+  },
+  "stacks": {
+    "fcte-pi1/2026_1_PI1_Grupo02_Hilmer": "ESP32, ESP-IDF, C++, KiCad, FastAPI, React",
+    "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "PIC, C, UART, PWM",
+    "Arthurpmarinho/FPGA_ENSEA": "VHDL, ModelSim, Quartus, GHDL",
+    "Arthurpmarinho/Interface_Industrial_Projeto_Rossi": "Python, PyQt5, Modbus RTU, RS-485",
+    "Arthurpmarinho/f1-ers-battery-sim": "MATLAB, Simulink, Simscape Battery"
+  }
 }
