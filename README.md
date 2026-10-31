@@ -21,7 +21,9 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 <!-- PORTFOLIO:START -->
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA) | repositório de projetos em VHDL para a matéria de FPGA no ENSEA em 2026/2 ou 2627 | VHDL |
 | [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) |  | C++ |
+| [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | Este projeto consiste no firmware para o sistema de controle de uma maquete de elevador de 4 andares, desenvolvido como Projeto Final da disciplina de Eletrônica Embarcada na Universidade de Brasília | SWIG |
 <!-- PORTFOLIO:END -->
 
 ## Recently updated
