@@ -27,3 +27,7 @@ Coloque o nome dele em `exclude` no config.json.
 ## Descrição e stack na tabela
 
 Por padrão vêm do About e dos tópicos do repositório. Para sobrescrever, use `descriptions` e `stacks` no config.json.
+
+## Trabalhos de disciplina
+
+Ficam numa tabela separada, "Coursework". Para incluir um, coloque `dono/repositorio` em `coursework` no config.json. Eles não se repetem na lista de recentes.

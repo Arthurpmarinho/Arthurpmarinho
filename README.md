@@ -26,6 +26,11 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 | [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) | Maze-solving robot with ESP32 firmware, two KiCad PCBs and live web telemetry. 1st place, UnB internal competition | ESP32, ESP-IDF, C++, KiCad, FastAPI, React |
 <!-- PORTFOLIO:END -->
 
+## Coursework
+
+<!-- COURSEWORK:START -->
+<!-- COURSEWORK:END -->
+
 ## Recently updated
 
 <!-- RECENT:START -->

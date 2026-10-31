@@ -13,29 +13,40 @@
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "Bluetooth elevator controller",
     "Arthurpmarinho/Interface_Industrial_Projeto_Rossi": "Motor vibration monitoring",
     "Arthurpmarinho/f1-ers-battery-sim": "F1 ERS battery model",
-    "Arthurpmarinho/FPGA_ENSEA": "VHDL labs (ENSEA)"
+    "Arthurpmarinho/FPGA_ENSEA": "VHDL labs (ENSEA)",
+    "Arthurpmarinho/Trabalho_final_OO_2026-1": "Café loyalty system (OOP final project)",
+    "Arthurpmarinho/Embarcado_2025_02": "Embedded Electronics labs (PIC)",
+    "Arthurpmarinho/ted_ped_2_2024_02": "Digital systems labs (VHDL, Vivado)"
   },
   "max_recent": 5,
   "exclude": [
     "OO_2026_01",
     "Biblioteca_VHDL",
-    "PI1_2026_01_Arthur",
-    "Trabalho_final_OO_2026-1",
-    "Embarcado_2025_02",
-    "ted_ped_2_2024_02"
+    "PI1_2026_01_Arthur"
   ],
   "descriptions": {
     "fcte-pi1/2026_1_PI1_Grupo02_Hilmer": "Maze-solving robot with ESP32 firmware, two KiCad PCBs and live web telemetry. 1st place, UnB internal competition",
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry",
     "Arthurpmarinho/FPGA_ENSEA": "VHDL modules with testbenches: ALU, HDMI timing controller, counter, shift register. GHDL CI",
     "Arthurpmarinho/Interface_Industrial_Projeto_Rossi": "Real-time vibration monitoring for electric motors over Modbus RTU, with FFT and ISO 10816 diagnostics",
-    "Arthurpmarinho/f1-ers-battery-sim": "Electro-thermal model of an F1 ERS battery in Simulink and an energy deployment strategy from real telemetry"
+    "Arthurpmarinho/f1-ers-battery-sim": "Electro-thermal model of an F1 ERS battery in Simulink and an energy deployment strategy from real telemetry",
+    "Arthurpmarinho/Trabalho_final_OO_2026-1": "Sales and loyalty program for a themed café, object-oriented design in Java. UnB 2026/1",
+    "Arthurpmarinho/Embarcado_2025_02": "Lab exercises on PIC microcontrollers in MPLAB X. UnB Embedded Electronics 2025/2",
+    "Arthurpmarinho/ted_ped_2_2024_02": "FPGA labs in Vivado: state machines, counters, 7-segment display, PicoBlaze. UnB 2024/2"
   },
   "stacks": {
     "fcte-pi1/2026_1_PI1_Grupo02_Hilmer": "ESP32, ESP-IDF, C++, KiCad, FastAPI, React",
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "PIC, C, UART, PWM",
     "Arthurpmarinho/FPGA_ENSEA": "VHDL, ModelSim, Quartus, GHDL",
     "Arthurpmarinho/Interface_Industrial_Projeto_Rossi": "Python, PyQt5, Modbus RTU, RS-485",
-    "Arthurpmarinho/f1-ers-battery-sim": "MATLAB, Simulink, Simscape Battery"
-  }
+    "Arthurpmarinho/f1-ers-battery-sim": "MATLAB, Simulink, Simscape Battery",
+    "Arthurpmarinho/Trabalho_final_OO_2026-1": "Java",
+    "Arthurpmarinho/Embarcado_2025_02": "PIC, C, MPLAB X",
+    "Arthurpmarinho/ted_ped_2_2024_02": "VHDL, Vivado"
+  },
+  "coursework": [
+    "Arthurpmarinho/Trabalho_final_OO_2026-1",
+    "Arthurpmarinho/Embarcado_2025_02",
+    "Arthurpmarinho/ted_ped_2_2024_02"
+  ]
 }

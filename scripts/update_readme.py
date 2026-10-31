@@ -93,11 +93,21 @@ def main():
     seen = {r["full_name"].lower() for r in portfolio}
     portfolio += [r for r in extra if r["full_name"].lower() not in seen]
     portfolio.sort(key=lambda r: r["pushed_at"], reverse=True)
-    recent = sorted(own, key=lambda r: r["pushed_at"], reverse=True)[: CONFIG["max_recent"]]
+    coursework = []
+    for full in CONFIG.get("coursework", []):
+        try:
+            coursework.append(get(f"/repos/{full}"))
+        except Exception as exc:
+            print(f"Ignorando {full}: {exc}")
+    coursework.sort(key=lambda r: r["pushed_at"], reverse=True)
+    course_names = {r["full_name"].lower() for r in coursework}
+    recent = sorted([r for r in own if r["full_name"].lower() not in course_names], key=lambda r: r["pushed_at"], reverse=True)[: CONFIG["max_recent"]]
 
     text = README.read_text(encoding="utf-8")
     text = replace_block(text, "PORTFOLIO", portfolio_table(portfolio))
     text = replace_block(text, "RECENT", recent_list(recent))
+    if "<!-- COURSEWORK:START -->" in text:
+        text = replace_block(text, "COURSEWORK", portfolio_table(coursework))
     README.write_text(text, encoding="utf-8")
     print(f"{len(portfolio)} projetos no portfólio, {len(recent)} recentes")
 
