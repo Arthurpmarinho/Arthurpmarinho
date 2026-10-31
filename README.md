@@ -21,18 +21,15 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 <!-- PORTFOLIO:START -->
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA) | repositório de projetos em VHDL para a matéria de FPGA no ENSEA em 2026/2 ou 2627 | VHDL |
-| [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) |  | C++ |
-| [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | Este projeto consiste no firmware para o sistema de controle de uma maquete de elevador de 4 andares, desenvolvido como Projeto Final da disciplina de Eletrônica Embarcada na Universidade de Brasília | SWIG |
+| [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA) | VHDL modules with testbenches: ALU, HDMI timing controller, counter, shift register. GHDL CI | VHDL, ModelSim, Quartus, GHDL |
+| [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) | Maze-solving robot with ESP32 firmware, two KiCad PCBs and live web telemetry. 1st place, UnB internal competition | ESP32, ESP-IDF, C++, KiCad, FastAPI, React |
+| [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | 4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry | PIC, C, UART, PWM |
 <!-- PORTFOLIO:END -->
 
 ## Recently updated
 
 <!-- RECENT:START -->
 - [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA), updated 2026-10-31
-- [Trabalho final OO 2026 1](https://github.com/Arthurpmarinho/Trabalho_final_OO_2026-1), updated 2026-07-06
-- [Embarcado 2025 02](https://github.com/Arthurpmarinho/Embarcado_2025_02), updated 2026-02-19
-- [ted ped 2 2024 02](https://github.com/Arthurpmarinho/ted_ped_2_2024_02), updated 2026-02-17
 - [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada), updated 2025-12-12
 <!-- RECENT:END -->
 
