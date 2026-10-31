@@ -29,6 +29,11 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 ## Coursework
 
 <!-- COURSEWORK:START -->
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Café loyalty system (OOP final project)](https://github.com/Arthurpmarinho/Trabalho_final_OO_2026-1) | Sales and loyalty program for a themed café, object-oriented design in Java. UnB 2026/1 | Java |
+| [Embedded Electronics labs (PIC)](https://github.com/Arthurpmarinho/Embarcado_2025_02) | Lab exercises on PIC microcontrollers in MPLAB X. UnB Embedded Electronics 2025/2 | PIC, C, MPLAB X |
+| [Digital systems labs (VHDL, Vivado)](https://github.com/Arthurpmarinho/ted_ped_2_2024_02) | FPGA labs in Vivado: state machines, counters, 7-segment display, PicoBlaze. UnB 2024/2 | VHDL, Vivado |
 <!-- COURSEWORK:END -->
 
 ## Recently updated
