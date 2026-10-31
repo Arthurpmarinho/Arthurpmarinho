@@ -21,16 +21,16 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 <!-- PORTFOLIO:START -->
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | 4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry | PIC, C, UART, PWM |
 | [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA) | VHDL modules with testbenches: ALU, HDMI timing controller, counter, shift register. GHDL CI | VHDL, ModelSim, Quartus, GHDL |
 | [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) | Maze-solving robot with ESP32 firmware, two KiCad PCBs and live web telemetry. 1st place, UnB internal competition | ESP32, ESP-IDF, C++, KiCad, FastAPI, React |
-| [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | 4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry | PIC, C, UART, PWM |
 <!-- PORTFOLIO:END -->
 
 ## Recently updated
 
 <!-- RECENT:START -->
+- [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada), updated 2026-10-31
 - [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA), updated 2026-10-31
-- [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada), updated 2025-12-12
 <!-- RECENT:END -->
 
 ## Tools
