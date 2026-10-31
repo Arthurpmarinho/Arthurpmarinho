@@ -1,0 +1,20 @@
+{
+  "user": "Arthurpmarinho",
+  "topic": "portfolio",
+  "extra_repos": [
+    "fcte-pi1/2026_1_PI1_Grupo02_Hilmer"
+  ],
+  "display_names": {
+    "fcte-pi1/2026_1_PI1_Grupo02_Hilmer": "Micromouse",
+    "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "Bluetooth elevator controller",
+    "Arthurpmarinho/Interface_Industrial_Projeto_Rossi": "Motor vibration monitoring",
+    "Arthurpmarinho/f1-ers-battery-sim": "F1 ERS battery model",
+    "Arthurpmarinho/FPGA_ENSEA": "VHDL labs (ENSEA)"
+  },
+  "max_recent": 5,
+  "exclude": [
+    "OO_2026_01",
+    "Biblioteca_VHDL",
+    "PI1_2026_01_Arthur"
+  ]
+}
