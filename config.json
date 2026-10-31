@@ -4,7 +4,9 @@
   "extra_repos": [
     "fcte-pi1/2026_1_PI1_Grupo02_Hilmer",
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada",
-    "Arthurpmarinho/FPGA_ENSEA"
+    "Arthurpmarinho/FPGA_ENSEA",
+    "Arthurpmarinho/Interface_Industrial_Projeto_Rossi",
+    "Arthurpmarinho/f1-ers-battery-sim"
   ],
   "display_names": {
     "fcte-pi1/2026_1_PI1_Grupo02_Hilmer": "Micromouse",
