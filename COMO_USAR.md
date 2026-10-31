@@ -10,7 +10,7 @@ Este é o repositório especial de perfil. O README.md aparece no topo de github
 
 ## Repositório de outra conta ou organização
 
-Coloque `dono/repositorio` em `extra_repos` no config.json (ex.: o Micromouse em fcte-pi1).
+Coloque `dono/repositorio` em `extra_repos` no config.json (ex.: o Micromouse em fcte-pi1). Também serve para incluir um repositório seu sem mexer nos tópicos.
 
 ## Nome bonito na tabela
 

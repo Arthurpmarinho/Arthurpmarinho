@@ -86,7 +86,9 @@ def main():
         except Exception as exc:  # repo apagado ou privado
             print(f"Ignorando {full}: {exc}")
 
-    portfolio = [r for r in own if CONFIG["topic"] in r.get("topics", [])] + extra
+    portfolio = [r for r in own if CONFIG["topic"] in r.get("topics", [])]
+    seen = {r["full_name"].lower() for r in portfolio}
+    portfolio += [r for r in extra if r["full_name"].lower() not in seen]
     portfolio.sort(key=lambda r: r["pushed_at"], reverse=True)
     recent = sorted(own, key=lambda r: r["pushed_at"], reverse=True)[: CONFIG["max_recent"]]
 
