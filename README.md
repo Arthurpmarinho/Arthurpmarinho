@@ -39,6 +39,7 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 ## Recently updated
 
 <!-- RECENT:START -->
+- [Laborat rio   Communications num riques](https://github.com/Arthurpmarinho/Laborat-rio---Communications-num-riques), updated 2026-11-01
 - [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada), updated 2026-10-31
 - [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA), updated 2026-10-31
 <!-- RECENT:END -->
