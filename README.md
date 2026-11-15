@@ -22,7 +22,7 @@ I work on embedded systems, from the schematic and the PCB to the firmware and t
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA) | VHDL modules with testbenches: ALU, HDMI timing controller, counter, shift register. GHDL CI | VHDL, ModelSim, Quartus, GHDL |
-| [FPGA TP 2026.02](https://github.com/anauehara/FPGA_TP_2026.02) |  | Verilog |
+| [Magic Screen (telecran, FPGA)](https://github.com/anauehara/FPGA_TP_2026.02) | Magic Screen: Etch-A-Sketch style drawing toy on a DE10-Nano. Debounced quadrature encoders move a cursor, a dual-port RAM framebuffer stores the drawing, and it is streamed out over HDMI. ENSEA FPGA lab, with Ana Carolina | VHDL, ModelSim, Quartus, HDMI, DE10-Nano |
 | [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | 4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry | PIC, C, UART, PWM |
 | [Micromouse](https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer) | Maze-solving robot with ESP32 firmware, two KiCad PCBs and live web telemetry. 1st place, UnB internal competition | ESP32, ESP-IDF, C++, KiCad, FastAPI, React |
 <!-- PORTFOLIO:END -->
