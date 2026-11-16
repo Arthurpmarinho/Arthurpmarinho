@@ -1,7 +1,8 @@
 """Atualiza as seções automáticas do README de perfil.
 
 - PORTFOLIO: todo repositório público com o tópico "portfolio" (mais os
-  extra_repos do config.json), ordenado pelo último push.
+  extra_repos do config.json). Primeiro os de featured_order, nessa
+  ordem, depois o resto pelo último push.
 - RECENT: os repositórios públicos com push mais recente.
 
 Uso: GITHUB_TOKEN=... python scripts/update_readme.py
@@ -93,6 +94,9 @@ def main():
     seen = {r["full_name"].lower() for r in portfolio}
     portfolio += [r for r in extra if r["full_name"].lower() not in seen]
     portfolio.sort(key=lambda r: r["pushed_at"], reverse=True)
+    # featured_order fixa a ordem dos destaques; o resto vem por data
+    order = [f.lower() for f in CONFIG.get("featured_order", [])]
+    portfolio.sort(key=lambda r: order.index(r["full_name"].lower()) if r["full_name"].lower() in order else len(order))
     coursework = []
     for full in CONFIG.get("coursework", []):
         try:

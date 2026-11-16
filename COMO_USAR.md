@@ -12,6 +12,10 @@ Este é o repositório especial de perfil. O README.md aparece no topo de github
 
 Coloque `dono/repositorio` em `extra_repos` no config.json (ex.: o Micromouse em fcte-pi1). Também serve para incluir um repositório seu sem mexer nos tópicos.
 
+## Ordem dos destaques
+
+A lista `featured_order` no config.json define quem aparece primeiro na tabela Projects (hoje o Micromouse). O resto vem pela data do último push.
+
 ## Nome bonito na tabela
 
 Use `display_names` no config.json. Sem isso, o nome do repositório é usado.
