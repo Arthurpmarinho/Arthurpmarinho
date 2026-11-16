@@ -12,7 +12,7 @@ I build embedded systems end to end, from the schematic and the PCB to the firmw
 <a href="https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer"><img src="https://raw.githubusercontent.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer/main/hw/PCB/Motor%20%26%20Drive%20Board/3D_PCB1_2026-06-30.png" width="48%" alt="Motor and drive board"></a>
 
 Autonomous robot that maps an unknown maze and then runs the shortest path. **1st place in the UnB internal competition.**
-I led the electronics team, designed the boards in KiCad and wrote the motor and sensor firmware on an ESP32 with ESP-IDF. Live telemetry goes over Wi-Fi to a web dashboard.
+I led the electronics team, designed the board schematics in KiCad and wrote the motor and sensor firmware on an ESP32 with ESP-IDF. Live telemetry goes over Wi-Fi to a web dashboard.
 
 [Repository](https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer) · [8x8 maze run](https://youtu.be/1a2v_xoSXcU) · [How it works](https://youtu.be/TcLgV6eDGfE)
 
@@ -21,7 +21,7 @@ I led the electronics team, designed the boards in KiCad and wrote the motor and
 <!-- PORTFOLIO:START -->
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [Micromouse](https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer) | Autonomous maze-solving robot. I led the electronics, designed the custom KiCad boards and wrote the motor and sensor firmware on ESP32. 1st place in the UnB internal competition | ESP32, ESP-IDF, C++, KiCad, FastAPI, React |
+| [Micromouse](https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer) | Autonomous maze-solving robot. I led the electronics, designed the KiCad board schematics and wrote the motor and sensor firmware on ESP32. 1st place in the UnB internal competition | ESP32, ESP-IDF, C++, KiCad, FastAPI, React |
 | [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada) | 4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry | PIC, C, UART, PWM |
 | [Magic Screen (telecran, FPGA)](https://github.com/anauehara/FPGA_TP_2026.02) | Magic Screen: Etch-A-Sketch style drawing toy on a DE10-Nano. Debounced quadrature encoders move a cursor, a dual-port RAM framebuffer stores the drawing, and it is streamed out over HDMI. ENSEA FPGA lab, with Ana Carolina | VHDL, ModelSim, Quartus, HDMI, DE10-Nano |
 | [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA) | VHDL modules with testbenches: ALU, HDMI timing controller, counter, shift register. GHDL CI | VHDL, ModelSim, Quartus, GHDL |

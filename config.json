@@ -49,7 +49,7 @@
     "Arthurpmarinho/Trabalho_final_OO_2026-1": "Sales and loyalty program for a themed café, object-oriented design in Java. UnB 2026/1",
     "Arthurpmarinho/Embarcado_2025_02": "Lab exercises on PIC microcontrollers in MPLAB X. UnB Embedded Electronics 2025/2",
     "Arthurpmarinho/ted_ped_2_2024_02": "FPGA labs in Vivado: state machines, counters, 7-segment display, PicoBlaze. UnB 2024/2",
-    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "Autonomous maze-solving robot. I led the electronics, designed the custom KiCad boards and wrote the motor and sensor firmware on ESP32. 1st place in the UnB internal competition"
+    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "Autonomous maze-solving robot. I led the electronics, designed the KiCad board schematics and wrote the motor and sensor firmware on ESP32. 1st place in the UnB internal competition"
   },
   "stacks": {
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "PIC, C, UART, PWM",
