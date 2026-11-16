@@ -2,6 +2,7 @@
   "user": "Arthurpmarinho",
   "topic": "portfolio",
   "featured_order": [
+    "Arthurpmarinho/capital-rocket-team-avionics",
     "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer",
     "Arthurpmarinho/Interface_Industrial_Projeto_Rossi",
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada",
@@ -10,6 +11,7 @@
     "Arthurpmarinho/FPGA_ENSEA"
   ],
   "extra_repos": [
+    "Arthurpmarinho/capital-rocket-team-avionics",
     "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer",
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada",
     "Arthurpmarinho/FPGA_ENSEA",
@@ -38,7 +40,8 @@
     "Arthurpmarinho/Trabalho_final_OO_2026-1": "Café loyalty system (OOP final project)",
     "Arthurpmarinho/Embarcado_2025_02": "Embedded Electronics labs (PIC)",
     "Arthurpmarinho/ted_ped_2_2024_02": "Digital systems labs (VHDL, Vivado)",
-    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "Micromouse"
+    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "Micromouse",
+    "Arthurpmarinho/capital-rocket-team-avionics": "Capital Rocket Team avionics"
   },
   "descriptions": {
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "4-floor elevator on PIC16F1827 with SCAN scheduling, PWM motor control and Bluetooth UART telemetry",
@@ -49,7 +52,8 @@
     "Arthurpmarinho/Trabalho_final_OO_2026-1": "Sales and loyalty program for a themed café, object-oriented design in Java. UnB 2026/1",
     "Arthurpmarinho/Embarcado_2025_02": "Lab exercises on PIC microcontrollers in MPLAB X. UnB Embedded Electronics 2025/2",
     "Arthurpmarinho/ted_ped_2_2024_02": "FPGA labs in Vivado: state machines, counters, 7-segment display, PicoBlaze. UnB 2024/2",
-    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "Autonomous maze-solving robot. I led the electronics, designed the KiCad board schematics and wrote the motor and sensor firmware on ESP32. 1st place in the UnB internal competition"
+    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "Autonomous maze-solving robot. I led the electronics, designed the KiCad board schematics and wrote the motor and sensor firmware on ESP32. 1st place in the UnB internal competition",
+    "Arthurpmarinho/capital-rocket-team-avionics": "Flight avionics boards for the Boscov hybrid rocket: valve control and parachute deployment (CRM) and GPS/IMU LoRa telemetry (GNM). 1st place in the hybrid category at LASC 2025"
   },
   "stacks": {
     "Arthurpmarinho/Trabalho-final-Eletronica-Embarcada": "PIC, C, UART, PWM",
@@ -60,6 +64,7 @@
     "Arthurpmarinho/Trabalho_final_OO_2026-1": "Java",
     "Arthurpmarinho/Embarcado_2025_02": "PIC, C, MPLAB X",
     "Arthurpmarinho/ted_ped_2_2024_02": "VHDL, Vivado",
-    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "ESP32, ESP-IDF, C++, KiCad, FastAPI, React"
+    "Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer": "ESP32, ESP-IDF, C++, KiCad, FastAPI, React",
+    "Arthurpmarinho/capital-rocket-team-avionics": "EasyEDA Pro, ESP32, LoRa, I2C, SPI"
   }
 }
