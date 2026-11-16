@@ -8,8 +8,8 @@ I build embedded systems end to end, from the schematic and the PCB to the firmw
 
 ## Featured project · Micromouse
 
-<a href="https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer"><img src="https://raw.githubusercontent.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer/main/hw/PCB/Logic%20%26%20Control%20Board/3D_PCB2_2026-06-05.png" width="48%" alt="Logic and control board"></a>
-<a href="https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer"><img src="https://raw.githubusercontent.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer/main/hw/PCB/Motor%20%26%20Drive%20Board/3D_PCB1_2026-06-30.png" width="48%" alt="Motor and drive board"></a>
+<a href="https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer"><img src="https://raw.githubusercontent.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer/main/hw/PCB/Logic%20%26%20Control%20Board/3D_PCB2_2026-06-05.png" height="200" alt="Logic and control board"></a>
+<a href="https://github.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer"><img src="https://raw.githubusercontent.com/Arthurpmarinho/2026_1_PI1_Grupo02_Hilmer/main/hw/PCB/Motor%20%26%20Drive%20Board/3D_PCB1_2026-06-30.png" height="200" alt="Motor and drive board"></a>
 
 Autonomous robot that maps an unknown maze and then runs the shortest path. **1st place in the UnB internal competition.**
 I led the electronics team, designed the board schematics in KiCad and wrote the motor and sensor firmware on an ESP32 with ESP-IDF. Live telemetry goes over Wi-Fi to a web dashboard.
