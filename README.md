@@ -60,6 +60,7 @@ Portuguese native · English C1 · Spanish B1 · French A2
 ## Recently updated
 
 <!-- RECENT:START -->
+- [Capital Rocket Team avionics](https://github.com/Arthurpmarinho/capital-rocket-team-avionics), updated 2026-11-16
 - [VHDL labs (ENSEA)](https://github.com/Arthurpmarinho/FPGA_ENSEA), updated 2026-11-15
 - [Bluetooth elevator controller](https://github.com/Arthurpmarinho/Trabalho-final-Eletronica-Embarcada), updated 2026-10-31
 <!-- RECENT:END -->
